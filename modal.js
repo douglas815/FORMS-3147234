@@ -1,4 +1,3 @@
-// modal.js
 export function showModal() {
   const modal = document.getElementById("modal-success");
   modal.classList.remove("hidden");
