@@ -1,5 +1,5 @@
-import { showModal,hideModal } from "./modal";
-
+// main.js
+import { showModal, hideModal } from "./modal.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("formulario");
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     showModal();
-    form.reset(); // Reset the form fields after submission
+    form.reset(); // Limpiar campos tras enviar
   });
 
   closeModalButton.addEventListener("click", () => {
